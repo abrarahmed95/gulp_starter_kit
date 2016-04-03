@@ -3,7 +3,7 @@ var gulp         = require ('gulp'),
     sass         = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     browserSync  = require('browser-sync').create(),
-    jade         =require('gulp-jade'),
+    jade         = require('gulp-jade'),
     plumber      = require('gulp-plumber');
 
 var js_input     = 'js/*.js',
